@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to left ,white , gray);
+}
+
+.name{
+    color: white;
+    text-align: center;
+}
+
+.name h1{
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    transition: 1s ease;
+    color: black;
+}
+
+.name h2{
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    transition: 1s ease;
+    color: black;
+}
+
+.name :hover{
+    font-size: 60px;
+    transform: scale(1.1);
+}
+
